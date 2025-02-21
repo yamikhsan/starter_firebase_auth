@@ -10,7 +10,12 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  flutter_flavorizr: ^2.2.3
+#  flutter_flavorizr: ^2.2.3
+  flutter_flavorizr:
+    git:
+      url: https://github.com/wjlee611/flutter_flavorizr.git
+      # ref: feat/migrate-3-29
+      ref: chore/temp-migrate-3-29
 
 dev_dependencies:
   flutter_test:
