@@ -1,0 +1,17 @@
+flavors:
+
+  prod:
+    app:
+      name: "Production App"
+    android:
+      applicationId: "com.yamistudio.starter_firebase_auth"
+    ios:
+      bundleId: "com.yamistudio.starterFirebaseAuth"
+
+  dev:
+    app:
+      name: "Development App"
+    android:
+      applicationId: "com.yamistudio.starter_firebase_auth.dev"
+    ios:
+      bundleId: "com.yamistudio.starterFirebaseAuth.dev"
