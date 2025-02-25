@@ -3,5 +3,5 @@
 
 FLUTTER_TARGET=lib/main_dev.dart
 ASSET_PREFIX=dev
-BUNDLE_NAME=Development App
-BUNDLE_DISPLAY_NAME=Development App
+BUNDLE_NAME=Auth App Dev
+BUNDLE_DISPLAY_NAME=Auth App Dev

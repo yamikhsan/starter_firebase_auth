@@ -2,7 +2,7 @@ flavors:
 
   prod:
     app:
-      name: "Production App"
+      name: "Auth App"
     android:
       applicationId: "com.yamistudio.starter_firebase_auth"
     ios:
@@ -10,7 +10,7 @@ flavors:
 
   dev:
     app:
-      name: "Development App"
+      name: "Auth App Dev"
     android:
       applicationId: "com.yamistudio.starter_firebase_auth.dev"
     ios:

@@ -3,5 +3,5 @@
 
 FLUTTER_TARGET=lib/main_prod.dart
 ASSET_PREFIX=prod
-BUNDLE_NAME=Production App
-BUNDLE_DISPLAY_NAME=Production App
+BUNDLE_NAME=Auth App
+BUNDLE_DISPLAY_NAME=Auth App
