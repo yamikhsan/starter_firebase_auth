@@ -1,8 +1,8 @@
+import 'package:starter_firebase_auth/firebase_options.dart';
+import 'package:starter_firebase_auth/main.dart';
 import 'flavors.dart';
-
-import 'main.dart' as runner;
 
 Future<void> main() async {
   F.appFlavor = Flavor.prod;
-  await runner.main();
+  runMainApp(DefaultFirebaseOptions.currentPlatform);
 }

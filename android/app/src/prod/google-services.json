@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "709386702141",
+    "project_id": "auth-app-26147",
+    "storage_bucket": "auth-app-26147.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709386702141:android:36c4624b83ee6b2dbd8954",
+        "android_client_info": {
+          "package_name": "com.yamistudio.starter_firebase_auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAH9srZzGHTDVyouW-55_fRbDv2qsrjXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
