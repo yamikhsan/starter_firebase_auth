@@ -1,7 +1,7 @@
-enum Flavor {
-  prod,
-  dev,
-}
+import 'package:flutter/material.dart';
+import 'package:starter_firebase_auth/constants/app_colors.dart';
+
+enum Flavor { prod, dev }
 
 class F {
   static Flavor? appFlavor;
@@ -19,4 +19,14 @@ class F {
     }
   }
 
+  static Color get color {
+    switch (appFlavor) {
+      case Flavor.prod:
+        return AppColors.prod;
+      case Flavor.dev:
+        return AppColors.dev;
+      default:
+        return Colors.green;
+    }
+  }
 }
