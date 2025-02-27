@@ -18,6 +18,8 @@ dependencies:
       ref: chore/temp-migrate-3-29
   flutter_launcher_icons: ^0.14.3
   firebase_core: ^3.12.0
+  firebase_ui_auth: ^1.16.1
+  firebase_auth: ^5.5.0
 
 dev_dependencies:
   flutter_test:
@@ -28,3 +30,8 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
+      
+fonts:
+  - family: SocialIcons
+    fonts:
+      - asset: packages/firebase_ui_auth/fonts/SocialIcons.ttf
